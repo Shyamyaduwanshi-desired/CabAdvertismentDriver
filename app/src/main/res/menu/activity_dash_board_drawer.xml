@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_avatar"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_wallet"
+            android:icon="@drawable/wallet"
+            android:title="My Wallet" />
+        <item
+            android:id="@+id/nav_activity"
+            android:icon="@drawable/deliverytruck"
+            android:title="My Activity" />
+        <item
+            android:id="@+id/nav_information"
+            android:icon="@drawable/ic_usertaxi"
+            android:title="Vehicle Infomation" />
+        <item
+            android:id="@+id/nav_compaign"
+            android:icon="@drawable/campaign"
+            android:title="My Campaign" />
+        <item
+            android:id="@+id/nav_analysis"
+            android:icon="@drawable/weekly"
+            android:title="Weekly Analysis Report" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help"
+            android:title="Help" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/notification"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/nav_shareinvite"
+            android:icon="@drawable/share"
+            android:title="Share &amp; Invite" />
+        <item
+            android:id="@+id/nav_ratereview"
+            android:icon="@drawable/rate"
+            android:title="Rate &amp; Review" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Log Out" />
+    </group>
+
+
+</menu>

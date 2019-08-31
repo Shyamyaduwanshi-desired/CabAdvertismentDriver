@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/edit_background"
+    android:layout_marginTop="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:weightSum="3">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_steering_wheel"
+            android:layout_marginLeft="5dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Brand Name :"
+                android:textColor="@color/darkblue"
+                android:textSize="12dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/tv_model_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Swift Dezire"
+                android:paddingLeft="10dp"
+                android:textColor="@color/darkblue"
+                android:textSize="12dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginLeft="35dp"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Year :"
+                android:textColor="@color/darkblue"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/tv_model_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2019"
+                android:paddingLeft="10dp"
+                android:textColor="@color/darkblue"
+                android:textSize="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:weightSum="3"
+        android:visibility="gone"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_license_plate"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile Number"
+            android:textColor="@color/darkblue"
+            android:layout_marginLeft="5dp"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/tv_mobile_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IMZ35925ON351234"
+            android:paddingLeft="10dp"
+            android:textColor="@color/darkblue"
+            android:textSize="12dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:weightSum="3"
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_license_plate"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Car Registraion Number"
+            android:textColor="@color/darkblue"
+            android:layout_marginLeft="5dp"
+            android:textSize="12dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tv_vehicle_regi_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2894585009988"
+            android:paddingLeft="10dp"
+            android:textColor="@color/darkblue"
+            android:textSize="12dp"/>
+    </LinearLayout>
+
+</LinearLayout>

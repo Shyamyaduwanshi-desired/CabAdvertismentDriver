@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2c3e50</color>
+    <color name="colorPrimaryDark">#2c3e50</color>
+    <color name="colorAccent">#2c3e50</color>
+    <color name="white">#FFF</color>
+    <color name="darkblue">#2c3e50</color>
+    <color name="lightblue">#2980b9</color>
+    <color name="overlay">#00FFFFFF</color>
+    <color name="black">#000</color>
+    <color name="darkgray">#616A6B</color>
+    <color name="lightgrayview">#5A979797</color>
+    <color name="slidercolour">#12000000</color>
+    <item name="gray_holo_dark" type="color">#ff464646</item>
+    <item name="gray_holo_light" type="color">#ffd0d0d0</item>
+    <color name="appThemeColor_1">#2980b9</color>
+
+    <color name="green">#23cf01</color>
+    <color name="red">#e22607</color>
+    <color name="rate_active">#FFEB3B</color>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp">
+
+    <com.github.vipulasri.timelineview.TimelineView
+        android:id="@+id/timeline"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:markerSize="20dp"
+        app:lineWidth="3dp"
+        app:marker="@drawable/timeline_button"
+        app:startLineColor="@color/lightgrayview"
+        app:endLineColor="@color/lightgrayview" />
+
+
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_inactive_title"
+                android:textColor="@android:color/black"
+                tools:text="Order Successfully Completed"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_inactive_msg"
+                android:textSize="12sp"
+                tools:text="24 JAN"/>
+
+            <TextView
+                android:textAllCaps="true"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/text_inactive_btn"
+                android:textColor="@android:color/white"
+                android:background="@color/black"
+                tools:text="Document"/>
+
+    </LinearLayout>
+
+</LinearLayout>

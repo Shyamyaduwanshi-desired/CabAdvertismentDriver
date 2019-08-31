@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/tv_no_data"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="14dp"
+        android:textColor="#000"
+        android:visibility="gone"
+        android:text="Data not found"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_withdraw_history"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        />
+  <!--  <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:layout_height="89dp"
+            card_view:cardCornerRadius="4dp"
+            card_view:elevation="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imgProfileAvatar"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/icon" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    >
+                    <TextView
+                        android:id="@+id/referraltext_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Johan"
+                        />
+
+                    <TextView
+                        android:id="@+id/referralid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DHAR5421"
+                        android:layout_marginTop="10dp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="10dp"
+                    >
+                    <TextView
+                        android:id="@+id/referralday"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="+ $100.00"
+                        android:textColor="#F11C03"
+                        android:layout_marginTop="10dp"
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8 July 2019"
+                android:textColor="@color/lightblue"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="10dp"
+                />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:layout_height="89dp"
+            card_view:cardCornerRadius="4dp"
+            card_view:elevation="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/icon"  />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Johan"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DHAR5421"
+                        android:layout_marginTop="10dp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="10dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="+ $100.00"
+                        android:textColor="#0D6620"
+                        android:layout_marginTop="10dp"
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8 July 2019"
+                android:textColor="@color/lightblue"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="10dp"
+                />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:layout_height="89dp"
+            card_view:cardCornerRadius="4dp"
+            card_view:elevation="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/icon"  />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Johan"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DHAR5421"
+                        android:layout_marginTop="10dp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="10dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="+ $100.00"
+                        android:textColor="#F11C03"
+                        android:layout_marginTop="10dp"
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8 July 2019"
+                android:textColor="@color/lightblue"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="10dp"
+                />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:layout_height="89dp"
+            card_view:cardCornerRadius="4dp"
+            card_view:elevation="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/icon"  />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Johan"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DHAR5421"
+                        android:layout_marginTop="10dp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="10dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="+ $100.00"
+                        android:textColor="#0D6620"
+                        android:layout_marginTop="10dp"
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8 July 2019"
+                android:textColor="@color/lightblue"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="10dp"
+                />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:layout_height="89dp"
+            card_view:cardCornerRadius="4dp"
+            card_view:elevation="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/icon"  />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Johan"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DHAR5421"
+                        android:layout_marginTop="10dp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="10dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="+ $100.00"
+                        android:textColor="#F11C03"
+                        android:layout_marginTop="10dp"
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8 July 2019"
+                android:textColor="@color/lightblue"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="10dp"
+                />
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+    </ScrollView>-->
+
+</LinearLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="10dp"
+    >
+    <LinearLayout
+        android:id="@+id/timeline_linear_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:background="@drawable/edit_background"
+        android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/weekly_date_bg"
+    >
+    <RelativeLayout
+    android:id="@+id/rl_left"
+    android:layout_width="50dp"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_weekly_left_white_100dp"
+        />
+
+</RelativeLayout>
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/rl_left"
+        android:layout_toLeftOf="@+id/rl_right"
+        android:text="Date"
+        android:textSize="@dimen/margin_15"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+    <RelativeLayout
+        android:id="@+id/rl_right"
+    android:layout_width="50dp"
+    android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_weekly_right_white_100dp"
+            />
+</RelativeLayout>
+
+</RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+           >
+            <TextView
+                android:id="@+id/tv_covered_loc_txt"
+                android:layout_width="@dimen/compaign_text_width"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="14dp"
+                android:textColor="#000"
+                android:text="Location Covered:"/>
+            <TextView
+                android:id="@+id/tv_covered_loc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+               android:layout_toRightOf="@+id/tv_covered_loc_txt"
+                android:gravity="right"
+                android:layout_marginRight="10dp"
+                android:textSize="14dp"
+                android:textColor="#000"
+                android:text="Palasiya indore"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+           >
+            <TextView
+                android:id="@+id/tv_total_km_txt"
+                android:layout_width="@dimen/compaign_text_width"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="14dp"
+                android:textColor="#000"
+                android:text="Total Kms:"/>
+            <TextView
+                android:id="@+id/tv_total_km"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+               android:layout_toRightOf="@+id/tv_total_km_txt"
+                android:gravity="right"
+                android:layout_marginRight="10dp"
+                android:textSize="14dp"
+                android:textColor="#000"
+                android:text="15km"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="@dimen/margin_10"
+           >
+            <TextView
+                android:id="@+id/tv_total_hours_txt"
+                android:layout_width="@dimen/compaign_text_width"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="14dp"
+                android:textColor="#000"
+                android:text="Total Hours:"/>
+            <TextView
+                android:id="@+id/tv_hours_km"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+               android:layout_toRightOf="@+id/tv_total_hours_txt"
+                android:gravity="right"
+                android:layout_marginRight="10dp"
+                android:textSize="14dp"
+                android:textColor="#000"
+                android:text="6 hours"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Send Money to Bank "
+                    android:textColor="@color/darkblue"
+                    android:textSize="15dp"
+                    android:layout_marginTop="20dp"
+                    android:paddingRight="35dp"
+                    android:drawablePadding="15dp"
+                    android:layout_marginLeft="10dp"/>
+                <EditText
+                    android:id="@+id/et_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/wallet_edit_height"
+                    android:background="@drawable/edit_background"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:hint="Name"
+                    android:textColor="@color/darkblue"
+                    android:paddingLeft="10dp"
+                    android:inputType="text"
+                    android:imeOptions="actionNext"
+                    android:drawableLeft="@drawable/ic_avatar"
+                    android:drawablePadding="15dp"/>
+
+                <EditText
+                    android:id="@+id/et_ac_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/wallet_edit_height"
+                    android:background="@drawable/edit_background"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:hint="Account Number"
+                    android:paddingLeft="10dp"
+                    android:inputType="number"
+                    android:textColor="@color/darkblue"
+                    android:imeOptions="actionNext"
+                    android:drawableLeft="@drawable/ic_computer"
+                    android:drawablePadding="15dp"/>
+                <EditText
+                    android:id="@+id/et_ifsc_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/wallet_edit_height"
+                    android:background="@drawable/edit_background"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:hint="IFSC Code"
+                    android:paddingLeft="10dp"
+                    android:inputType="text"
+                    android:textColor="@color/darkblue"
+                    android:imeOptions="actionNext"
+                    android:drawableLeft="@drawable/ic_computer"
+                    android:drawablePadding="15dp"/>
+                <EditText
+                    android:id="@+id/et_amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/wallet_edit_height"
+                    android:background="@drawable/edit_background"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:hint="Amount"
+                    android:paddingLeft="10dp"
+                    android:inputType="number"
+                    android:textColor="@color/darkblue"
+                    android:imeOptions="actionNext"
+                    android:drawableLeft="@drawable/ic_hand"
+                    android:drawablePadding="15dp"/>
+
+                <EditText
+                    android:id="@+id/et_dsc"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/wallet_edit_height"
+                    android:background="@drawable/edit_background"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:hint="Description"
+                    android:paddingLeft="10dp"
+                    android:inputType="text"
+                    android:textColor="@color/darkblue"
+                    android:imeOptions="actionNext"
+                    android:drawableLeft="@drawable/ic_computer"
+                    android:drawablePadding="15dp"/>
+
+                <Button
+                    android:id="@+id/bt_proceed"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="@drawable/get_started_button"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="13dp"
+                    android:layout_marginTop="30dp"
+                    android:text="Proceed Securely"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="50dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

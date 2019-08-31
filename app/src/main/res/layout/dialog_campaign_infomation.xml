@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+    android:padding="@dimen/margin_10"
+            >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Campaing details"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+
+            android:textSize="15dp"/>
+        <RelativeLayout
+            android:id="@+id/rl_close"
+            android:layout_width="40dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+
+            >
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/cancel"
+                android:layout_centerInParent="true"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/lightgrayview"
+                android:layout_gravity="center"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:id="@+id/tv_campaign_name_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+
+            android:text="Campaign Name"/>
+        <TextView
+            android:id="@+id/tv_campaign_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_marginRight="5dp"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/tv_campaign_name_txt"
+            android:text="test"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:id="@+id/tv_campaign_loc_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:text="Covered Location"/>
+        <TextView
+            android:id="@+id/tv_campaign_loc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_marginRight="5dp"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/tv_campaign_loc_txt"
+            android:text="Palasiya"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:id="@+id/tv_campaign_time_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:text="Time"/>
+        <TextView
+            android:id="@+id/tv_campaign_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_marginRight="5dp"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/tv_campaign_time_txt"
+            android:text="10 Days"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:id="@+id/tv_campaign_amount_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+
+            android:text="Amount"/>
+        <TextView
+            android:id="@+id/tv_campaign_amount"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_marginRight="5dp"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/tv_campaign_amount_txt"
+            android:text="INR 1000"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="@dimen/margin_10"
+        >
+        <TextView
+            android:id="@+id/tv_campaign_date_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+
+            android:text="Date"/>
+        <TextView
+            android:id="@+id/tv_campaign_date"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_marginRight="5dp"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/tv_campaign_date_txt"
+            android:text="25-09-2019"/>
+    </RelativeLayout>
+
+
+
+
+
+        </LinearLayout>
+
+<!--    </android.support.v7.widget.CardView>-->
+<!--
+</RelativeLayout>-->

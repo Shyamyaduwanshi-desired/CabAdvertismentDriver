@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "178687190565",
+    "firebase_url": "https://cabadvertisement-driver.firebaseio.com",
+    "project_id": "cabadvertisement-driver",
+    "storage_bucket": "cabadvertisement-driver.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178687190565:android:6837b0cf49581823",
+        "android_client_info": {
+          "package_name": "com.diss.cabadvertisementdriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178687190565-4ev7jslguba5skekq48mq9clvheehcb6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.diss.cabadvertisementdriver",
+            "certificate_hash": "f1e5eb6f5190c7fc931ec84f13003e6bc5a74ab9"
+          }
+        },
+        {
+          "client_id": "178687190565-bnac9l6qtmk3qt06l7heogo0fo7pajjm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1P2KWL1bgWg8bI13MA5N5iO-0-l8tEiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178687190565-bnac9l6qtmk3qt06l7heogo0fo7pajjm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
