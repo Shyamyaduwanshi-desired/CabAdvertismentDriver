@@ -77,8 +77,8 @@ public class NotificationPresenter {
                                             String date = object.getString("added_on");
 //                                            String date = "2019-08-30 11:53:14";
 
-//                                            String difftime=appData.CalculatDiffTime(date);
-                                            String difftime=appData.ConvertDate5(date);
+                                            String difftime=appData.CalculatDiffTime(date);
+//                                            String difftime=appData.ConvertDate5(date);
                                             bean.setNotiId(id);
                                             bean.setNotiDsc(message);
                                             bean.setNotiTime(difftime);
